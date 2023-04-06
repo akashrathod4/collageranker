@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+.student{
+    margin-left: 250px;
+}
+.pfofile{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.pfofile2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+#footer {
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+#footer p {
+  text-align: center;
+  padding: 30px;
+  font-size: 10px;
+}
+    </style>
+    <img src="collage Ranker.png"  alt="collageRanker" >
+   <nav class="student form">
+
+    <ul>
+        <li>Home</li>
+        <li>My Application</li>
+        <li>Profile</li>
+        <li>Contact</li>
+    </ul>
+   
+   <b style="margin-left: 150px;"> Student application from</b><br><br>
+
+   <main>
+    <label for="fname">First name:</label>
+    <input style="margin-left: 61px;" type="text" id="fname" name="fname"><br><br>
+    
+    <label for="lname">Last name:</label>
+    <input style="margin-left: 63px;" type="text" id="lname" name="lname"><br><br>
+    <label for="fname">Collage name:</label>
+  <input style="margin-left: 42px;" type="text" id="fname" name="fname"><br><br>
+
+  <label for="lname">Gender:</label>
+  <input style="margin-left: 85px;" type="radio" id="lname" value="male" name="lname">Male<br><br>
+  <input style="margin-left: 140px;" type="radio" id="lname" value="male" name="lname">Female<br><br>
+
+  <label for="fname">Email Id:</label>
+  <input style="margin-left: 80px;" type="text" id="fname" name="fname"><br><br>
+  <label for="Contact Number">Contact Number:</label><br><br>
+  <label for="Date">Date Of Birth</label>
+  <input style="margin-left: 60px;" type="date" id="lname" name="lname"><br><br>
+  <label for="Address">Address :</label><br><br>
+ <textarea style="margin-left: 150px;" name="" id="" cols="30" rows="10"></textarea><br><br>
+ <form action="">
+    <label for="Qualification">Qualification:</label>
+    <select name="Qualification" id="select">
+        <option value="">--Select Qualification--</option>
+        <option value="">Computer Science</option>
+        <option value="">Information Technology</option>
+        <option value="">Computer Architecture</option>
+        <option value="">Tale Communication</option><br><br>
+    </select>
+ </form><br><br>
+
+    <input style="margin-left: 160px;" type="submit" value="Submit"><br><br>
+   </main>
+    
+</nav>
+<div class="pfofile">
+    <img src="arjit.jpg" alt="" style="width:100%">
+    <h3>Name:Arjit Sing</h3>
+    <h5>Email Id:arjitsing@gmail.com</h5>
+    <h5>Phone Number: 9022044902</h5>
+    
+
+    
+</div>
+<div class="pfofile2">
+    <img src="kk.jpg" alt="" style="width:100%">
+    <h3>Name:Krishnakumar Kunnath</h3>
+    <h5>Email Id:krishnakumarg@gmail.com</h5>
+    <h5>Phone Number: 9022044902</h5>
+
+    
+      
+    
+</div>
+<div id="footer">
+    <p>  Copyright&copy; 2016&nbsp;school.pythonanywhere.com.&nbsp;All Rights Reserved &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{% url 'privacy' %}">Privacy policy</a></p>
+  </div>
+</script>
+</body>
+</html>
